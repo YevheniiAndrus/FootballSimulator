@@ -7,7 +7,7 @@
 Reader::Reader(const std::string& input_file){
     std::ifstream goal_file(input_file);
     if(!goal_file.is_open()){
-        std::cout << "Not found" << std::endl;
+        std::cout << "Input file not fount. Please make sure you are providing a correct path to MeanGamePerGame.csv" << std::endl;
     }
 
     std::string line;
