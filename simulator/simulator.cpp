@@ -57,17 +57,18 @@ void Simulator::playGame(const std::string &host_name, const std::string &guest_
         m_table[host_name].total_goals_scored += host_goals;
         m_table[host_name].games_lost_count++;
     }
-
+    else{
     // update records for draw
-    m_table[host_name].games_drawn_count++;
-    m_table[host_name].points++;
-    m_table[host_name].total_goals_scored += host_goals;
-    m_table[host_name].total_goals_conceded += guest_goals;
+        m_table[host_name].games_drawn_count++;
+        m_table[host_name].points++;
+        m_table[host_name].total_goals_scored += host_goals;
+        m_table[host_name].total_goals_conceded += guest_goals;
 
-    m_table[guest_name].points++;
-    m_table[guest_name].games_drawn_count++;
-    m_table[guest_name].total_goals_scored += guest_goals;
-    m_table[guest_name].total_goals_conceded += host_goals;
+        m_table[guest_name].points++;
+        m_table[guest_name].games_drawn_count++;
+        m_table[guest_name].total_goals_scored += guest_goals;
+        m_table[guest_name].total_goals_conceded += host_goals;
+    }
 }
 
 void Simulator::run(const std::vector<std::pair<std::string, double>> &mean_goals_per_game,
