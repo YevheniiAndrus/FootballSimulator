@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		C58275C6311747E28F17D2E4 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 64C0339888764D0B80DE0639 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				D84FA7A44F48DCD39B84B52C /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				64E20164D376497EAB58921F /* PBXTargetDependency */,
+				9388DD82BD054DF5BFA3DB41 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		E7C41BF2A1EF41C4B2292836 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7845DCB7BEAC4A1F8002D49C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				98FA2543EEF74FF411F9DAF7 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		58D9A801BBF34E09AFF7764D /* /Users/yevheniiandrus/ArringoTest/reader/reader.cpp */ = {isa = PBXBuildFile; fileRef = CD594765BB654325A20D89DF /* /Users/yevheniiandrus/ArringoTest/reader/reader.cpp */; };
+		CFA14DE848614AE79BC2711C /* /Users/yevheniiandrus/ArringoTest/reader/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DEDA0976B65F446BA3BCAA9F /* /Users/yevheniiandrus/ArringoTest/reader/CMakeLists.txt */; };
+		D9E532F8047F495782843824 /* /Users/yevheniiandrus/ArringoTest/reader/reader.h */ = {isa = PBXBuildFile; fileRef = 95690AF086A74528A02FED39 /* /Users/yevheniiandrus/ArringoTest/reader/reader.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		024EF331EF194FBE942D1D81 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		635D7F9CC9DC4AB98373FF68 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		9E8A7DEEB46A4A76B8DD6804 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		F5610DC074894F1EACC828E9 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		132F3E99AF8447C880832BF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D3E9E05980A4EA1BEAABA35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7C41BF2A1EF41C4B2292836;
+			remoteInfo = ZERO_CHECK;
+		};
+		1F956FAEA3BC4994AD75C703 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D3E9E05980A4EA1BEAABA35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7C41BF2A1EF41C4B2292836;
+			remoteInfo = ZERO_CHECK;
+		};
+		5534A42F932C4CCC841B334C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D3E9E05980A4EA1BEAABA35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 744EE6EA3AC64B4E8E14003C;
+			remoteInfo = reader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78D2691F2070403EB6457E7D /* reader */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libreader.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		95690AF086A74528A02FED39 /* /Users/yevheniiandrus/ArringoTest/reader/reader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = reader.h; path = reader.h; sourceTree = SOURCE_ROOT; };
+		CD594765BB654325A20D89DF /* /Users/yevheniiandrus/ArringoTest/reader/reader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = reader.cpp; path = reader.cpp; sourceTree = SOURCE_ROOT; };
+		DEDA0976B65F446BA3BCAA9F /* /Users/yevheniiandrus/ArringoTest/reader/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DF412CBEB89F471BB80AA568 /* /Users/yevheniiandrus/ArringoTest/reader/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDF1A4916F5E4C92974C69F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0830A363195F4563A83801F3 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		5EBB4C615C8F4BC5B2D40287 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD594765BB654325A20D89DF /* /Users/yevheniiandrus/ArringoTest/reader/reader.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		8CD0D49067BB47CF8D7D8ED3 = {
+			isa = PBXGroup;
+			children = (
+				D1F60C8F1897405C8B05A416 /* reader */,
+				BB42455465E1487386FBCCEB /* ALL_BUILD */,
+				E56E77F79A7749C7864843F0 /* Products */,
+				EFEC87C0872547A09AAC076E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B1E5CC85422949B6BCBB16B6 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				95690AF086A74528A02FED39 /* /Users/yevheniiandrus/ArringoTest/reader/reader.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		BB42455465E1487386FBCCEB /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				0830A363195F4563A83801F3 /* CMake Rules */,
+				DF412CBEB89F471BB80AA568 /* /Users/yevheniiandrus/ArringoTest/reader/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		D1F60C8F1897405C8B05A416 /* reader */ = {
+			isa = PBXGroup;
+			children = (
+				5EBB4C615C8F4BC5B2D40287 /* Source Files */,
+				B1E5CC85422949B6BCBB16B6 /* Header Files */,
+				DEDA0976B65F446BA3BCAA9F /* /Users/yevheniiandrus/ArringoTest/reader/CMakeLists.txt */,
+			);
+			name = reader;
+			sourceTree = "<group>";
+		};
+		E56E77F79A7749C7864843F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78D2691F2070403EB6457E7D /* reader */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFEC87C0872547A09AAC076E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		744EE6EA3AC64B4E8E14003C /* reader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 976C736FBC164A389B33AF49 /* Build configuration list for PBXNativeTarget "reader" */;
+			buildPhases = (
+				30E98B2263A443F188D3733A /* Sources */,
+				CDF1A4916F5E4C92974C69F3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C527386A02E644A482F33FA5 /* PBXTargetDependency */,
+			);
+			name = reader;
+			productName = reader;
+			productReference = 78D2691F2070403EB6457E7D /* reader */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D3E9E05980A4EA1BEAABA35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1340;
+			};
+			buildConfigurationList = F0F835BC80BD4D2AB94F4B96 /* Build configuration list for PBXProject "CSV_READER" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				F5610DC074894F1EACC828E9 /* Debug */,
+				9E8A7DEEB46A4A76B8DD6804 /* Release */,
+				024EF331EF194FBE942D1D81 /* MinSizeRel */,
+				635D7F9CC9DC4AB98373FF68 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 8CD0D49067BB47CF8D7D8ED3;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				C58275C6311747E28F17D2E4 /* ALL_BUILD */,
+				E7C41BF2A1EF41C4B2292836 /* ZERO_CHECK */,
+				744EE6EA3AC64B4E8E14003C /* reader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		98FA2543EEF74FF411F9DAF7 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/yevheniiandrus/ArringoTest/reader/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/yevheniiandrus/ArringoTest/reader
+  make -f /Users/yevheniiandrus/ArringoTest/reader/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/yevheniiandrus/ArringoTest/reader
+  make -f /Users/yevheniiandrus/ArringoTest/reader/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/yevheniiandrus/ArringoTest/reader
+  make -f /Users/yevheniiandrus/ArringoTest/reader/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/yevheniiandrus/ArringoTest/reader
+  make -f /Users/yevheniiandrus/ArringoTest/reader/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D84FA7A44F48DCD39B84B52C /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/yevheniiandrus/ArringoTest/reader/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/yevheniiandrus/ArringoTest/reader
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/yevheniiandrus/ArringoTest/reader
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/yevheniiandrus/ArringoTest/reader
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/yevheniiandrus/ArringoTest/reader
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30E98B2263A443F188D3733A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58D9A801BBF34E09AFF7764D /* /Users/yevheniiandrus/ArringoTest/reader/reader.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64E20164D376497EAB58921F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 744EE6EA3AC64B4E8E14003C /* reader */;
+			targetProxy = 5534A42F932C4CCC841B334C /* PBXContainerItemProxy */;
+		};
+		9388DD82BD054DF5BFA3DB41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7C41BF2A1EF41C4B2292836 /* ZERO_CHECK */;
+			targetProxy = 1F956FAEA3BC4994AD75C703 /* PBXContainerItemProxy */;
+		};
+		C527386A02E644A482F33FA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7C41BF2A1EF41C4B2292836 /* ZERO_CHECK */;
+			targetProxy = 132F3E99AF8447C880832BF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16916E7E44204D32838BF2C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yevheniiandrus/ArringoTest/reader;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		46F03D0505704D4B98C60CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yevheniiandrus/ArringoTest/reader;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		49DAB1A30FFA4ED9876FEFA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = reader;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yevheniiandrus/ArringoTest/reader;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5418C91EACAE4F0EAE9F49BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yevheniiandrus/ArringoTest/reader;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		56C9C72185BB4D26803745ED /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yevheniiandrus/ArringoTest/reader;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		726039F21C4649E89175262C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yevheniiandrus/ArringoTest/reader;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		88F7437ECEC74681A6F411DA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yevheniiandrus/ArringoTest/reader;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8F261C06386C4355A3462C41 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/yevheniiandrus/ArringoTest/reader/build;
+			};
+			name = RelWithDebInfo;
+		};
+		95505A0BF0F644AEBEE16C08 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/yevheniiandrus/ArringoTest/reader/build;
+			};
+			name = MinSizeRel;
+		};
+		9721D46D3699443A9D0A61DF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yevheniiandrus/ArringoTest/reader;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A2FD7117A5C143249F157A97 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = reader;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yevheniiandrus/ArringoTest/reader;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A46286D998A44288B82C34F6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = reader;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yevheniiandrus/ArringoTest/reader;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B33F0A54A34B40FA8590C34A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yevheniiandrus/ArringoTest/reader;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C0895966D76A4BE99F457D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = reader;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yevheniiandrus/ArringoTest/reader;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C464AB2D7A83410784CC358B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/yevheniiandrus/ArringoTest/reader/build;
+			};
+			name = Debug;
+		};
+		FEC02C62E534426F9AD633DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/yevheniiandrus/ArringoTest/reader/build;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64C0339888764D0B80DE0639 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5418C91EACAE4F0EAE9F49BC /* Debug */,
+				726039F21C4649E89175262C /* Release */,
+				B33F0A54A34B40FA8590C34A /* MinSizeRel */,
+				88F7437ECEC74681A6F411DA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7845DCB7BEAC4A1F8002D49C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F03D0505704D4B98C60CA4 /* Debug */,
+				16916E7E44204D32838BF2C5 /* Release */,
+				56C9C72185BB4D26803745ED /* MinSizeRel */,
+				9721D46D3699443A9D0A61DF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		976C736FBC164A389B33AF49 /* Build configuration list for PBXNativeTarget "reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0895966D76A4BE99F457D88 /* Debug */,
+				49DAB1A30FFA4ED9876FEFA4 /* Release */,
+				A2FD7117A5C143249F157A97 /* MinSizeRel */,
+				A46286D998A44288B82C34F6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F0F835BC80BD4D2AB94F4B96 /* Build configuration list for PBXProject "CSV_READER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C464AB2D7A83410784CC358B /* Debug */,
+				FEC02C62E534426F9AD633DE /* Release */,
+				95505A0BF0F644AEBEE16C08 /* MinSizeRel */,
+				8F261C06386C4355A3462C41 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D3E9E05980A4EA1BEAABA35 /* Project object */;
+}
