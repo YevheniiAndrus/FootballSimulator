@@ -5,7 +5,7 @@ Simulator produces tournament table after played season as CSV file.
 Each line contains team name, total points after season, number of won/drawn/loosed games and total number of scored/conceded goals
 
 1. Clone repository.
-2. Update submodules to be able run googletests: git submodule init --update --recursive
+2. Update submodules to be able run googletests: git submodule update --init --recursive
 3. mkdir build && cd build
 4. cmake ..
 5. make
