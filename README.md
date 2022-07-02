@@ -10,5 +10,5 @@ Each line contains team name, total points after season, number of won/drawn/loo
 4. mkdir build && cd build
 5. cmake ..
 6. make
-7. Run simulator providing path to file MeanGoalPerGame.csv, i.e. ./ArringoTest path_to_MeanGoalPerGame.csv
+7. Run simulator providing path to file MeanGoalPerGame.csv, i.e. ./FootballSimulator path_to_MeanGoalPerGame.csv
 8. Inspect results in current directory. Output printed into file results.csv
